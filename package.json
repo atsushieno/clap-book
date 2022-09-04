@@ -31,7 +31,9 @@
     "vivliostyle": "grunt vivliostyle",
     "test": "npm run html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "svgexport": "^0.4.2"
+  },
   "devDependencies": {
     "grunt": "^1.1.0",
     "grunt-cli": "^1.2.0",
