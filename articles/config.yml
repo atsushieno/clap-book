@@ -22,7 +22,7 @@ bookname: clap-book
 language: ja
 
 # 書名
-booktitle: {name: "CLAP開発者ガイド", file-as: "CLAPカイハツシャガイド"}
+booktitle: {name: "CLAPオーディオプラグイン開発者ガイド", file-as: "CLAPオーディオプラグインカイハツシャガイド"}
 
 # 著者名。「, 」で区切って複数指定できる
 aut: [{name: "atsushieno", file-as: "atsushieno"}]

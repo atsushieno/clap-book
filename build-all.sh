@@ -22,7 +22,8 @@ gs -q -dNOPAUSE -dBATCH -dPDFSETTINGS=/prepress -sDEVICE=pdfwrite -sOutputFile=t
 gm convert -page B4+0+0 miscellaneous/coverpage-ebook-front.png tmp-front.pdf
 gm convert -page B4+0+0 miscellaneous/coverpage-ebook-back.png tmp-back.pdf
 
-pdftk tmp-front.pdf tmp_ebook.pdf tmp-back.pdf cat output miscellaneous/ebook.pdf
+#pdftk tmp-front.pdf tmp_ebook.pdf tmp-back.pdf cat output miscellaneous/ebook.pdf
+pdftk tmp-front.pdf tmp_ebook.pdf cat output miscellaneous/clap-plugin-developers-guide.pdf
 rm tmp_ebook.pdf tmp-front.pdf tmp-back.pdf
 
 #npm run epub
