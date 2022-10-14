@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bash ./convert.sh
+#bash ./convert.sh
 #cp articles/config-printing.yml articles/config.yml
 npm run pdf
 gs -q -dNOPAUSE -dBATCH -dPDFSETTINGS=/prepress -sDEVICE=pdfwrite -sOutputFile=tmp_fontsembedded.pdf "articles/clap-book.pdf"
